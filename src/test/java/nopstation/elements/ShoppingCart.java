@@ -46,6 +46,10 @@ public class ShoppingCart {
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         return driver.findElement(By.xpath("//android.widget.TextView[@text='"+ paymentMethod +"']"));
     }
+    public MobileElement continueButton2(AndroidDriver<MobileElement> driver) {
+        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+        return driver.findElement(By.xpath("//android.widget.Button[@text='CONTINUE']"));
+    }
     public MobileElement nextButton(AndroidDriver<MobileElement> driver) {
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         return driver.findElement(By.xpath("//android.widget.Button[@text='Next']"));

@@ -157,7 +157,7 @@ public class BaseTest {
 
         utils.scrollDown(driver);
         Thread.sleep(2000);
-        shoppingCart.continueButton(driver).click();
+        shoppingCart.continueButton2(driver).click();
 
         int i = 5;
         while (i>0) {
